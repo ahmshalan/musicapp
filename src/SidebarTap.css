@@ -1,0 +1,38 @@
+.sidebarTap {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  padding-left: 30px;
+
+  cursor: pointer;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  border-color: transparent;
+  color: #888888;
+  font-size: 18px;
+  font-weight: bold;
+}
+.sidebarTap:hover,
+.sidebarTap:focus {
+  color: #1eb954;
+  background-image: linear-gradient(
+    to right,
+    #AFDEC0 0%,
+    transparent 30%
+  );
+
+  border-left-style: solid;
+  border-left-width: thick;
+  border-left-color: #1eb954;
+}
+.sidebarTap > .MuiSvgIcon-root:hover {
+  color: #1eb954;
+}
+.sidebarTap > .MuiSvgIcon-root {
+  margin-right: 1.2vw;
+  font-size: 1.2em;
+}
+.sidebarTap_info {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,6 @@
+.music {
+  display: flex;
+  flex-direction: column;
+  flex: 80%;
+  /* background-color: #F5F5F5; */
+}
