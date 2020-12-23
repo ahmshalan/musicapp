@@ -2,27 +2,27 @@ import React from "react";
 import SidebarTap from "./SidebarTap";
 import "./Sidebar.css";
 
-function Sidebar() {
+function Sidebar({ darkTheme }) {
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${darkTheme && "darkTheme"}`}>
       <h3 className="sidebar__header">MUSICLY</h3>
       <div className="sidebar__block1">
-        <SidebarTap name="home" />
-        <SidebarTap name="browse" />
-        <SidebarTap name="radio" />
+        <SidebarTap name="home" theme={darkTheme} />
+        <SidebarTap name="browse" theme={darkTheme} />
+        <SidebarTap name="radio" theme={darkTheme} />
       </div>
       <div className="sidebar__block">
         <h5>Your Library</h5>
-        <SidebarTap name="recently played" />
-        <SidebarTap name="favorite songs" />
-        <SidebarTap name="artists" />
-        <SidebarTap name="albums" />
+        <SidebarTap name="recently played" theme={darkTheme} />
+        <SidebarTap name="favorite songs" theme={darkTheme} />
+        <SidebarTap name="artists" theme={darkTheme} />
+        <SidebarTap name="albums" theme={darkTheme} />
       </div>
       <div className="sidebar__block">
         <h5>Playlists</h5>
-        <SidebarTap name="hindi top 50" isIcon={true} />
-        <SidebarTap name="indipop" isIcon={true} />
-        <SidebarTap name="romance season" isIcon={true} />
+        <SidebarTap name="hindi top 50" theme={darkTheme} />
+        <SidebarTap name="indipop" theme={darkTheme} />
+        <SidebarTap name="romance season" theme={darkTheme} />
       </div>
     </div>
   );

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Music.css";
-function Music() {
+function Music({darkTheme}) {
   return (
-    <div className="music">
+    <div className={`music ${darkTheme && "darkThemeMain"}`}>
       <h1>This is the music main Menu</h1>
     </div>
   );

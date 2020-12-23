@@ -31,9 +31,9 @@ const choosenIcon = (name) => {
   }
 };
 
-function SidebarTap({ name, isIcon }) {
+function SidebarTap({ name, theme }) {
   return (
-    <div className="sidebarTap">
+    <div className={`sidebarTap ${theme && "darkTheme"}`}>
       {choosenIcon(name)}
       <div className="sidebarTap_info">{name}</div>
     </div>

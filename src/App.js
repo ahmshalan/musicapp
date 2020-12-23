@@ -4,8 +4,8 @@ import Music from "./Music";
 function App() {
   return (
     <div className="app">
-      <Sidebar />
-      <Music />
+      <Sidebar darkTheme={false} />
+      <Music darkTheme={false} />
     </div>
   );
 }

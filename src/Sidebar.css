@@ -2,13 +2,12 @@
   display: flex;
   flex-direction: column;
   flex: 20%;
-  background-color: #ededed;
+  background-color: var(--lightgrey);
 }
 
 .sidebar__header {
   padding: 30px;
-  border-right: 1px solid lightgray;
-  color: #1eb954;
+  color: var(--green);
   font-weight: 800;
   font-size: x-large;
 }
@@ -27,15 +26,13 @@
   flex-direction: column;
 }
 
-.sidebar__block > h5 {
+h5 {
   padding-left: 30px;
   margin-bottom: 0;
-}
-h5 {
   font-weight: bold;
   font-size: small;
   text-transform: uppercase;
-  color: rgb(121, 117, 117);
+  color: var(--grey);
 }
 
 @media screen and (max-width: 974px) {
@@ -44,6 +41,14 @@ h5 {
   }
 }
 
+.darkTheme {
+  background-color: var(--darktheme-sidebar);
+  color: white;
+}
+
+.darkTheme h5{
+  color: var(--darktheme-purple);
+}
 /* @media screen and (max-width: 1024px) {
   .sidebar {
     flex: 30%;
