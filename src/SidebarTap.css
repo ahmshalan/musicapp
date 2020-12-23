@@ -14,7 +14,7 @@
 .sidebarTap:hover,
 .sidebarTap:focus {
   color: var(--green);
-  background-image: linear-gradient(to right, #afdec0 0%, transparent 30%);
+  background-image: linear-gradient(to right, #afdec085 0%, transparent 30%);
 
   border-left-style: solid;
   border-left-width: thick;
@@ -31,4 +31,3 @@
   font-size: 0.8em;
   text-transform: uppercase;
 }
-
