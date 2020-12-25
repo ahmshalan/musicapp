@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app">
       <Sidebar darkTheme={true} />
-      <Music darkTheme={false} />
+      <Music darkTheme={true} />
     </div>
   );
 }
