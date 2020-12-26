@@ -1,0 +1,45 @@
+.playbar {
+  background-color: #06081869;
+  border-radius: 10px;
+  color: white;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+}
+
+.song__name {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.artist__name {
+  color: #656567;
+}
+
+.volumeUp {
+  margin-right: 5px;
+}
+
+.white {
+  color: white;
+}
+
+.white:active {
+  color: var(--green);
+}
+.volume__control {
+  display: flex;
+  width: 5vw;
+  align-items: center;
+}

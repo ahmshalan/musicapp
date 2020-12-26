@@ -1,15 +1,15 @@
 import React from "react";
-import Banner from "./Banner";
-import PlaylistTap from "./PlaylistTap";
-import "./Playlist.css";
+import Banner from "./Components/Banner";
+import PlaylistTap from "./Components/PlaylistTap";
+import classes from "./Playlist.module.css";
 
 function Playlist() {
   return (
-    <div className="playlist">
+    <div className={classes.playlist}>
       <Banner />
 
-      <div className="playlist__songs">
-        <PlaylistTap />
+      <div className={classes.playlist__songs}>
+        <PlaylistTap/>
       </div>
     </div>
   );

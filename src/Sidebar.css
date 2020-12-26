@@ -3,6 +3,7 @@
   flex-direction: column;
   flex: 20%;
   background-color: var(--lightgrey);
+  height: 100vh;
 }
 
 .sidebar__header {

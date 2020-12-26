@@ -2,16 +2,15 @@
   margin: 0;
   padding: 0;
 }
-
-.app {
+.app_row {
   display: flex;
-  height: 100vh;
 }
+
 :root {
   --grey: #888888;
   --green: #1eb954;
   --lightgrey: #ededed;
   --darktheme-sidebar: #12192c;
-  --darktheme-purple: #CB3B48;
-  --darktheme--main: #171E31;
+  --darktheme-purple: #cb3b48;
+  --darktheme--main: #171e31;
 }

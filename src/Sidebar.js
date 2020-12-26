@@ -1,5 +1,5 @@
 import React from "react";
-import SidebarTap from "./SidebarTap";
+import SidebarTap from "./Components/SidebarTap";
 import "./Sidebar.css";
 
 function Sidebar({ darkTheme }) {
