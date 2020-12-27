@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from "./Components/Banner";
-import PlaylistTap from "./Components/PlaylistTap";
+import Banner from "../Components/Banner";
+import PlaylistTap from "../Components/PlaylistTap";
 import classes from "./Playlist.module.css";
 
 function Playlist() {

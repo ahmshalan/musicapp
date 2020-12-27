@@ -24,12 +24,16 @@ function Playbar() {
         alignItems="center"
       >
         <Grid item>
-          <Avatar className={classes.avatar} variant="square" src=""></Avatar>
+          <Avatar
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Alan_Walker_-_Faded.png/220px-Alan_Walker_-_Faded.png"
+            className={classes.avatar}
+            variant="square"
+          ></Avatar>
         </Grid>
 
         <Grid item>
-          <InputLabel className={classes.song__name}>Shape of you</InputLabel>
-          <InputLabel className={classes.artist__name}>Ed Sheeran</InputLabel>
+          <InputLabel className={classes.song__name}>Faded</InputLabel>
+          <InputLabel className={classes.artist__name}>Alan Walker</InputLabel>
         </Grid>
         <Grid item>
           <IconButton className={classes.white}>
@@ -61,7 +65,6 @@ function Playbar() {
           <Slider className={classes.white} />
         </Grid>
       </Grid>
-
     </div>
   );
 }
